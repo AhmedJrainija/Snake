@@ -1,0 +1,466 @@
+@media (min-width : 1200px) {
+  .box {
+    margin-left: 450px;
+    margin-top: 150px;
+  }
+  .box1{
+    position: absolute;
+    margin-left: 100px;
+    background-color: #2c3c26;
+    height: 50px;
+    width: 400px;
+    bottom: 545px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #2c3c26;
+    justify-content: space-between;
+  }
+  .name{
+    font-weight: bold;
+    font-family: Tiny5;
+    font-size: 50px;
+    color: #9cc76f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .score {
+    font-weight: bold;
+    font-family: Tiny5;
+    font-size: 22px;
+    color: #9cc76f;
+    margin-left: 15px;
+  }
+  .hscore {
+    font-weight: bold;
+    font-family: Tiny5;
+    font-size: 22px;
+    color: #9cc76f;
+    margin-right: 15px;
+  }
+  .box2 {
+    height: 400px;
+    width: 400px;
+    border: 5px solid #2c3c26;
+    margin: 100px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    background-color: #9cc76f;
+  }
+  .box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    background-color: #2c3c26;
+    margin-left: 100px;
+    border: 5px solid #2c3c26;
+    border-top: none;
+    height: 70px;
+  }
+  .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10,
+  .b11, .b12, .b13, .b14, .b15, .b16, .b17, .b18, .b19, .b20,
+  .b21, .b22, .b23, .b24, .b25, .b26, .b27, .b28, .b29, .b30,
+  .b31, .b32, .b33, .b34, .b35, .b36, .b37, .b38, .b39, .b40,
+  .b41, .b42, .b43, .b44, .b45, .b46, .b47, .b48, .b49, .b50,
+  .b51, .b52, .b53, .b54, .b55, .b56, .b57, .b58, .b59, .b60,
+  .b61, .b62, .b63, .b64, .b65, .b66, .b67, .b68, .b69, .b70,
+  .b71, .b72, .b73, .b74, .b75, .b76, .b77, .b78, .b79, .b80,
+  .b81, .b82, .b83, .b84, .b85, .b86, .b87, .b88, .b89, .b90,
+  .b91, .b92, .b93, .b94, .b95, .b96, .b97, .b98, .b99, .b100,
+  .b101, .b102, .b103, .b104, .b105, .b106, .b107, .b108, .b109, .b110,
+  .b111, .b112, .b113, .b114, .b115, .b116, .b117, .b118, .b119, .b120,
+  .b121, .b122, .b123, .b124, .b125, .b126, .b127, .b128, .b129, .b130,
+  .b131, .b132, .b133, .b134, .b135, .b136, .b137, .b138, .b139, .b140,
+  .b141, .b142, .b143, .b144, .b145, .b146, .b147, .b148, .b149, .b150,
+  .b151, .b152, .b153, .b154, .b155, .b156, .b157, .b158, .b159, .b160,
+  .b161, .b162, .b163, .b164, .b165, .b166, .b167, .b168, .b169, .b170,
+  .b171, .b172, .b173, .b174, .b175, .b176, .b177, .b178, .b179, .b180,
+  .b181, .b182, .b183, .b184, .b185, .b186, .b187, .b188, .b189, .b190,
+  .b191, .b192, .b193, .b194, .b195, .b196, .b197, .b198, .b199, .b200,
+  .b201, .b202, .b203, .b204, .b205, .b206, .b207, .b208, .b209, .b210,
+  .b211, .b212, .b213, .b214, .b215, .b216, .b217, .b218, .b219, .b220,
+  .b221, .b222, .b223, .b224, .b225, .b226, .b227, .b228, .b229, .b230,
+  .b231, .b232, .b233, .b234, .b235, .b236, .b237, .b238, .b239, .b240,
+  .b241, .b242, .b243, .b244, .b245, .b246, .b247, .b248, .b249, .b250,
+  .b251, .b252, .b253, .b254, .b255, .b256, .b257, .b258, .b259, .b260,
+  .b261, .b262, .b263, .b264, .b265, .b266, .b267, .b268, .b269, .b270,
+  .b271, .b272, .b273, .b274, .b275, .b276, .b277, .b278, .b279, .b280,
+  .b281, .b282, .b283, .b284, .b285, .b286, .b287, .b288, .b289, .b290,
+  .b291, .b292, .b293, .b294, .b295, .b296, .b297, .b298, .b299, .b300,
+  .b301, .b302, .b303, .b304, .b305, .b306, .b307, .b308, .b309, .b310,
+  .b311, .b312, .b313, .b314, .b315, .b316, .b317, .b318, .b319, .b320,
+  .b321, .b322, .b323, .b324, .b325, .b326, .b327, .b328, .b329, .b330,
+  .b331, .b332, .b333, .b334, .b335, .b336, .b337, .b338, .b339, .b340,
+  .b341, .b342, .b343, .b344, .b345, .b346, .b347, .b348, .b349, .b350,
+  .b351, .b352, .b353, .b354, .b355, .b356, .b357, .b358, .b359, .b360,
+  .b361, .b362, .b363, .b364, .b365, .b366, .b367, .b368, .b369, .b370,
+  .b371, .b372, .b373, .b374, .b375, .b376, .b377, .b378, .b379, .b380,
+  .b381, .b382, .b383, .b384, .b385, .b386, .b387, .b388, .b389, .b390,
+  .b391, .b392, .b393, .b394, .b395, .b396, .b397, .b398, .b399, .b400 {
+    height: 1fr;
+    border: 1px #86b058 solid;
+  } 
+  .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10,
+  .s11, .s12, .s13, .s14, .s15, .s16, .s17, .s18, .s19, .s20,
+  .s21, .s22, .s23, .s24, .s25, .s26, .s27, .s28, .s29, .s30,
+  .s31, .s32, .s33, .s34, .s35, .s36, .s37, .s38, .s39, .s40,
+  .s41, .s42, .s43, .s44, .s45, .s46, .s47, .s48, .s49, .s50,
+  .s51, .s52, .s53, .s54, .s55, .s56, .s57, .s58, .s59, .s60,
+  .s61, .s62, .s63, .s64, .s65, .s66, .s67, .s68, .s69, .s70,
+  .s71, .s72, .s73, .s74, .s75, .s76, .s77, .s78, .s79, .s80,
+  .s81, .s82, .s83, .s84, .s85, .s86, .s87, .s88, .s89, .s90,
+  .s91, .s92, .s93, .s94, .s95, .s96, .s97, .s98, .s99, .s100,
+  .s101, .s102, .s103, .s104, .s105, .s106, .s107, .s108, .s109, .s110,
+  .s111, .s112, .s113, .s114, .s115, .s116, .s117, .s118, .s119, .s120,
+  .s121, .s122, .s123, .s124, .s125, .s126, .s127, .s128, .s129, .s130,
+  .s131, .s132, .s133, .s134, .s135, .s136, .s137, .s138, .s139, .s140,
+  .s141, .s142, .s143, .s144, .s145, .s146, .s147, .s148, .s149, .s150,
+  .s151, .s152, .s153, .s154, .s155, .s156, .s157, .s158, .s159, .s160,
+  .s161, .s162, .s163, .s164, .s165, .s166, .s167, .s168, .s169, .s170,
+  .s171, .s172, .s173, .s174, .s175, .s176, .s177, .s178, .s179, .s180,
+  .s181, .s182, .s183, .s184, .s185, .s186, .s187, .s188, .s189, .s190,
+  .s191, .s192, .s193, .s194, .s195, .s196, .s197, .s198, .s199, .s200,
+  .s201, .s202, .s203, .s204, .s205, .s206, .s207, .s208, .s209, .s210,
+  .s211, .s212, .s213, .s214, .s215, .s216, .s217, .s218, .s219, .s220,
+  .s221, .s222, .s223, .s224, .s225, .s226, .s227, .s228, .s229, .s230,
+  .s231, .s232, .s233, .s234, .s235, .s236, .s237, .s238, .s239, .s240,
+  .s241, .s242, .s243, .s244, .s245, .s246, .s247, .s248, .s249, .s250,
+  .s251, .s252, .s253, .s254, .s255, .s256, .s257, .s258, .s259, .s260,
+  .s261, .s262, .s263, .s264, .s265, .s266, .s267, .s268, .s269, .s270,
+  .s271, .s272, .s273, .s274, .s275, .s276, .s277, .s278, .s279, .s280,
+  .s281, .s282, .s283, .s284, .s285, .s286, .s287, .s288, .s289, .s290,
+  .s291, .s292, .s293, .s294, .s295, .s296, .s297, .s298, .s299, .s300,
+  .s301, .s302, .s303, .s304, .s305, .s306, .s307, .s308, .s309, .s310,
+  .s311, .s312, .s313, .s314, .s315, .s316, .s317, .s318, .s319, .s320,
+  .s321, .s322, .s323, .s324, .s325, .s326, .s327, .s328, .s329, .s330,
+  .s331, .s332, .s333, .s334, .s335, .s336, .s337, .s338, .s339, .s340,
+  .s341, .s342, .s343, .s344, .s345, .s346, .s347, .s348, .s349, .s350,
+  .s351, .s352, .s353, .s354, .s355, .s356, .s357, .s358, .s359, .s360,
+  .s361, .s362, .s363, .s364, .s365, .s366, .s367, .s368, .s369, .s370,
+  .s371, .s372, .s373, .s374, .s375, .s376, .s377, .s378, .s379, .s380,
+  .s381, .s382, .s383, .s384, .s385, .s386, .s387, .s388, .s389, .s390,
+  .s391, .s392, .s393, .s394, .s395, .s396, .s397, .s398, .s399, .s400 {
+    height: 1fr;
+    border: solid 1px #9cc76f;
+    background-color: #2c3c26;
+  }
+  .f {
+    height: 1fr;
+    background-color: #2c3c26;
+    border: solid 1px #9cc76f;
+    border-radius: 50%;
+  }
+  .bt-restart{
+    background-color: #2c3c26;
+    color: #9cc76f;
+    border: none;
+    height: 55px;
+    width: 140px;
+    font-family: Tiny5;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 5px solid #9cc76f;
+    margin-left: 10px;
+  }
+  .bt-restart:active{
+    background-color: #9cc76f;
+    color: #2c3c26;
+  }
+  .bt-sound{
+    background-color: #2c3c26;
+    color: #9cc76f;
+    border: none;
+    height: 55px;
+    width: 140px;
+    font-family: Tiny5;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 5px solid #9cc76f;
+  }
+  .bt-sound:active{
+    background-color: #9cc76f;
+    color: #2c3c26;
+  }
+  .go1{
+    display: none;
+  }
+  .go2{
+    position: absolute;
+    background-color: transparent;
+    height: 150px;
+    width: 400px;
+    top: 260px;
+    left: 482px;
+    color: #2c3c26;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-size: 70px;
+    margin-left: 93px;
+    font-family: Tiny5;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 8px;
+  }
+  .m_food {
+    opacity: 0;
+  }
+  .m_move {
+    opacity: 0;
+  }
+  .m_go {
+    opacity: 0;
+  }
+  .m_restart {
+    opacity: 0;
+  }
+  .box4 {
+    display: none;
+  }
+}
+
+@media (max-width : 1200px) {
+  .box {
+    position: fixed;
+    top: 0;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+  }
+  .box1{
+    background-color: #2c3c26;
+    min-height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #2c3c26;
+  }
+  .score {
+    font-weight: bold;
+    font-family: Tiny5;
+    font-size: 22px;
+    color: #9cc76f;
+    margin-left: 15px;
+  }
+  .hscore {
+    font-weight: bold;
+    font-family: Tiny5;
+    font-size: 22px;
+    color: #9cc76f;
+    padding-right: 15px;
+  }
+  
+  .box2 {
+    min-height: 400px;
+    width: auto;
+    border: 5px solid #2c3c26;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    background-color: #9cc76f;
+  }
+  .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10,
+  .b11, .b12, .b13, .b14, .b15, .b16, .b17, .b18, .b19, .b20,
+  .b21, .b22, .b23, .b24, .b25, .b26, .b27, .b28, .b29, .b30,
+  .b31, .b32, .b33, .b34, .b35, .b36, .b37, .b38, .b39, .b40,
+  .b41, .b42, .b43, .b44, .b45, .b46, .b47, .b48, .b49, .b50,
+  .b51, .b52, .b53, .b54, .b55, .b56, .b57, .b58, .b59, .b60,
+  .b61, .b62, .b63, .b64, .b65, .b66, .b67, .b68, .b69, .b70,
+  .b71, .b72, .b73, .b74, .b75, .b76, .b77, .b78, .b79, .b80,
+  .b81, .b82, .b83, .b84, .b85, .b86, .b87, .b88, .b89, .b90,
+  .b91, .b92, .b93, .b94, .b95, .b96, .b97, .b98, .b99, .b100,
+  .b101, .b102, .b103, .b104, .b105, .b106, .b107, .b108, .b109, .b110,
+  .b111, .b112, .b113, .b114, .b115, .b116, .b117, .b118, .b119, .b120,
+  .b121, .b122, .b123, .b124, .b125, .b126, .b127, .b128, .b129, .b130,
+  .b131, .b132, .b133, .b134, .b135, .b136, .b137, .b138, .b139, .b140,
+  .b141, .b142, .b143, .b144, .b145, .b146, .b147, .b148, .b149, .b150,
+  .b151, .b152, .b153, .b154, .b155, .b156, .b157, .b158, .b159, .b160,
+  .b161, .b162, .b163, .b164, .b165, .b166, .b167, .b168, .b169, .b170,
+  .b171, .b172, .b173, .b174, .b175, .b176, .b177, .b178, .b179, .b180,
+  .b181, .b182, .b183, .b184, .b185, .b186, .b187, .b188, .b189, .b190,
+  .b191, .b192, .b193, .b194, .b195, .b196, .b197, .b198, .b199, .b200,
+  .b201, .b202, .b203, .b204, .b205, .b206, .b207, .b208, .b209, .b210,
+  .b211, .b212, .b213, .b214, .b215, .b216, .b217, .b218, .b219, .b220,
+  .b221, .b222, .b223, .b224, .b225, .b226, .b227, .b228, .b229, .b230,
+  .b231, .b232, .b233, .b234, .b235, .b236, .b237, .b238, .b239, .b240,
+  .b241, .b242, .b243, .b244, .b245, .b246, .b247, .b248, .b249, .b250,
+  .b251, .b252, .b253, .b254, .b255, .b256, .b257, .b258, .b259, .b260,
+  .b261, .b262, .b263, .b264, .b265, .b266, .b267, .b268, .b269, .b270,
+  .b271, .b272, .b273, .b274, .b275, .b276, .b277, .b278, .b279, .b280,
+  .b281, .b282, .b283, .b284, .b285, .b286, .b287, .b288, .b289, .b290,
+  .b291, .b292, .b293, .b294, .b295, .b296, .b297, .b298, .b299, .b300,
+  .b301, .b302, .b303, .b304, .b305, .b306, .b307, .b308, .b309, .b310,
+  .b311, .b312, .b313, .b314, .b315, .b316, .b317, .b318, .b319, .b320,
+  .b321, .b322, .b323, .b324, .b325, .b326, .b327, .b328, .b329, .b330,
+  .b331, .b332, .b333, .b334, .b335, .b336, .b337, .b338, .b339, .b340,
+  .b341, .b342, .b343, .b344, .b345, .b346, .b347, .b348, .b349, .b350,
+  .b351, .b352, .b353, .b354, .b355, .b356, .b357, .b358, .b359, .b360,
+  .b361, .b362, .b363, .b364, .b365, .b366, .b367, .b368, .b369, .b370,
+  .b371, .b372, .b373, .b374, .b375, .b376, .b377, .b378, .b379, .b380,
+  .b381, .b382, .b383, .b384, .b385, .b386, .b387, .b388, .b389, .b390,
+  .b391, .b392, .b393, .b394, .b395, .b396, .b397, .b398, .b399, .b400 {
+    height: 1fr;
+    border: 1px #86b058 solid;
+  } 
+  .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10,
+  .s11, .s12, .s13, .s14, .s15, .s16, .s17, .s18, .s19, .s20,
+  .s21, .s22, .s23, .s24, .s25, .s26, .s27, .s28, .s29, .s30,
+  .s31, .s32, .s33, .s34, .s35, .s36, .s37, .s38, .s39, .s40,
+  .s41, .s42, .s43, .s44, .s45, .s46, .s47, .s48, .s49, .s50,
+  .s51, .s52, .s53, .s54, .s55, .s56, .s57, .s58, .s59, .s60,
+  .s61, .s62, .s63, .s64, .s65, .s66, .s67, .s68, .s69, .s70,
+  .s71, .s72, .s73, .s74, .s75, .s76, .s77, .s78, .s79, .s80,
+  .s81, .s82, .s83, .s84, .s85, .s86, .s87, .s88, .s89, .s90,
+  .s91, .s92, .s93, .s94, .s95, .s96, .s97, .s98, .s99, .s100,
+  .s101, .s102, .s103, .s104, .s105, .s106, .s107, .s108, .s109, .s110,
+  .s111, .s112, .s113, .s114, .s115, .s116, .s117, .s118, .s119, .s120,
+  .s121, .s122, .s123, .s124, .s125, .s126, .s127, .s128, .s129, .s130,
+  .s131, .s132, .s133, .s134, .s135, .s136, .s137, .s138, .s139, .s140,
+  .s141, .s142, .s143, .s144, .s145, .s146, .s147, .s148, .s149, .s150,
+  .s151, .s152, .s153, .s154, .s155, .s156, .s157, .s158, .s159, .s160,
+  .s161, .s162, .s163, .s164, .s165, .s166, .s167, .s168, .s169, .s170,
+  .s171, .s172, .s173, .s174, .s175, .s176, .s177, .s178, .s179, .s180,
+  .s181, .s182, .s183, .s184, .s185, .s186, .s187, .s188, .s189, .s190,
+  .s191, .s192, .s193, .s194, .s195, .s196, .s197, .s198, .s199, .s200,
+  .s201, .s202, .s203, .s204, .s205, .s206, .s207, .s208, .s209, .s210,
+  .s211, .s212, .s213, .s214, .s215, .s216, .s217, .s218, .s219, .s220,
+  .s221, .s222, .s223, .s224, .s225, .s226, .s227, .s228, .s229, .s230,
+  .s231, .s232, .s233, .s234, .s235, .s236, .s237, .s238, .s239, .s240,
+  .s241, .s242, .s243, .s244, .s245, .s246, .s247, .s248, .s249, .s250,
+  .s251, .s252, .s253, .s254, .s255, .s256, .s257, .s258, .s259, .s260,
+  .s261, .s262, .s263, .s264, .s265, .s266, .s267, .s268, .s269, .s270,
+  .s271, .s272, .s273, .s274, .s275, .s276, .s277, .s278, .s279, .s280,
+  .s281, .s282, .s283, .s284, .s285, .s286, .s287, .s288, .s289, .s290,
+  .s291, .s292, .s293, .s294, .s295, .s296, .s297, .s298, .s299, .s300,
+  .s301, .s302, .s303, .s304, .s305, .s306, .s307, .s308, .s309, .s310,
+  .s311, .s312, .s313, .s314, .s315, .s316, .s317, .s318, .s319, .s320,
+  .s321, .s322, .s323, .s324, .s325, .s326, .s327, .s328, .s329, .s330,
+  .s331, .s332, .s333, .s334, .s335, .s336, .s337, .s338, .s339, .s340,
+  .s341, .s342, .s343, .s344, .s345, .s346, .s347, .s348, .s349, .s350,
+  .s351, .s352, .s353, .s354, .s355, .s356, .s357, .s358, .s359, .s360,
+  .s361, .s362, .s363, .s364, .s365, .s366, .s367, .s368, .s369, .s370,
+  .s371, .s372, .s373, .s374, .s375, .s376, .s377, .s378, .s379, .s380,
+  .s381, .s382, .s383, .s384, .s385, .s386, .s387, .s388, .s389, .s390,
+  .s391, .s392, .s393, .s394, .s395, .s396, .s397, .s398, .s399, .s400 {
+    height: 1fr;
+    border: solid 1px #9cc76f;
+    background-color: #2c3c26;
+  }
+  .f {
+    height: 1fr;
+    background-color: #2c3c26;
+    border: solid 1px #9cc76f;
+    border-radius: 50%;
+  }
+  .go1{
+    display: none;
+  }
+  .go2{
+    position: absolute;
+    background-color: transparent;
+    max-height: 400px;
+    width: auto;
+    margin-top: 63px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    color: #2c3c26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-family: Tiny5;
+    font-weight: bold;
+  }
+
+  .box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color: #2c3c26;
+    border: 5px solid #2c3c26;
+    border-top: none;
+    min-height: 70px;
+  }
+  .bt-restart{
+    background-color: #2c3c26;
+    color: #9cc76f;
+    border: none;
+    min-height: 55px;
+    min-width: 140px;
+    font-family: Tiny5;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 5px solid #9cc76f;
+    margin-left: 10px;
+    flex-shrink: 1;
+  }
+  .bt-restart:active{
+    background-color: #9cc76f;
+    color: #2c3c26;
+  }
+  .bt-sound{
+    background-color: #2c3c26;
+    color: #9cc76f;
+    border: none;
+    min-height: 55px;
+    min-width: 140px;
+    font-family: Tiny5;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 5px solid #9cc76f;
+    flex-shrink: 1;
+  }
+  .bt-sound:active{
+    background-color: #9cc76f;
+    color: #2c3c26;
+  }
+
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color: #2c3c26;
+    border: 5px solid #2c3c26;
+    border-top: none;
+    min-height: 250px;
+    padding-top: 10px;
+  }
+  .sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+  }
+  .up, .down, .left, .right {
+    cursor: pointer;
+  }
+
+  .m_food {
+    opacity: 0;
+  }
+  .m_move {
+    opacity: 0;
+  }
+  .m_go {
+    opacity: 0;
+  }
+  .m_restart {
+    opacity: 0;
+  }
+}
